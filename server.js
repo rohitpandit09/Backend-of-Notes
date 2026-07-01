@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors(
 
     {
-        origin : "*"
+        origin : "https://notes-qnqjikdwj-rohit-pandits-projects-8271d420.vercel.app/"
     }
 ));
 
@@ -27,4 +27,4 @@ app.listen(5000,()=>{
 
 
 
-// http://localhost:5000/api/notes/create-note
+// https://backend-of-notes.onrender.com/api/notes/create-note

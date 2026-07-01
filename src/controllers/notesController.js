@@ -91,7 +91,7 @@ exports.updateNote = async (req,res) =>{
 }
 
 
-// http://localhost:5000/api/update/note/:id
+// https://backend-of-notes.onrender.com/api/update/note/:id
 
 
 // existingNotes = [
