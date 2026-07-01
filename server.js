@@ -12,9 +12,9 @@ app.use(express.json());
 app.use(cors(
 
     {
-        origin : [
-            "https://notes-app-delta-dun-18.vercel.app/"
-        ]
+        origin : "https://notes-app-delta-dun-18.vercel.app/",
+        credentials : true,
+        
     }
 ));
 
