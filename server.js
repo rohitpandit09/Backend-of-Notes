@@ -12,7 +12,9 @@ app.use(express.json());
 app.use(cors(
 
     {
-        origin : "https://notes-qnqjikdwj-rohit-pandits-projects-8271d420.vercel.app/"
+        origin : [
+            "https://notes-app-delta-dun-18.vercel.app/"
+        ]
     }
 ));
 
