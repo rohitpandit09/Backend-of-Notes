@@ -13,6 +13,7 @@ app.use(cors(
 
     {
         origin : "https://notes-app-delta-dun-18.vercel.app/",
+        methods : ["GET","POST","PATCH","DELETE"],
         credentials : true,
         
     }
